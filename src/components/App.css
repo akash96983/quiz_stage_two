@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #47398D;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    color: white;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 250px 520px 30px 470px;
+}
+
+#playBtn {
+    padding: 10px 100px;
+    background-color: #0AB306;
+    border-radius: 50px;
+    display: block;
+    margin-left: 505px;
+}
+
+#content1 {
+    height: 100vh;
+}
+
+#subContainer {
+    height: 550px;
+    width: 90vw;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice {
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    background-color: #1EA1F1;
+    border-radius: 50px;
+    color: white;
+}
+
+.flexContent {
+    display: flex;
+}
+
+#contentOne {
+    margin-top: -100px;
+}
+
+#choiceBox {
+    margin-top: 200px;
+}
+
+#quesHead,
+#ques {
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#ques {
+    font-weight: bold;
+    color: black;
+}
+
+#noQues {
+    color: black;
+    margin-left: 30px;
+}
+
+#options {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+.opt {
+    margin-left: 30px;
+    text-align: center;
+    padding: 8px 30px 0px 30px;
+    height: 35px;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+#preview {
+    background-color: #3E7EAA;
+}
+
+#next {
+    background-color: #008001;
+}
+
+#quit {
+    background-color: #FF0000;
+}
+
+#result {
+    text-align: center;
+    color: #008001;
+    margin-bottom: 40px;
+}
+
+#resultContainer {
+    height: 450px;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.resultFlex {
+    display: flex;
+    width: 580px;
+    margin-top: 20px;
+    margin-left: 25px;
+    justify-content: space-between;
+    color: black;
+}
+
+#scorePercentage {
+    color: #0000FF;
+
+}
+
+#resinfo {
+    font-size:18px;
+    padding-top:30px;
+    text-align: center;
+}
+
+#scorePercentage {
+    padding-top:20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+#resParent{
+    margin-top:50px;
+}
+
+#button{
+    display: flex;
+    margin:30px 460px;
+}
+#playagainBtn{
+    height:30px;
+    width:150px;
+    font-weight:bold;
+    color:#9B9BDE;
+    border:2px solid #9B9BDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#backBtn{
+    height:30px;
+    width:150px;
+    font-weight:bold;
+    color: #008001;
+    border:2px solid #008001;
+    margin-left: 100px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
